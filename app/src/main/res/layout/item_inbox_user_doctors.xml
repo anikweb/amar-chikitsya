@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin=".5dp"
+    android:elevation="5dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/inbox_user_doctors_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_user_doctor"
+            app:civ_border_color="@color/primary"
+            app:civ_border_width="3dp"
+            app:civ_circle_background_color="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/inbox_user_doctors_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:maxWidth="220dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/inbox_user_doctors_img"
+            app:layout_constraintTop_toTopOf="@id/inbox_user_doctors_img" />
+
+        <TextView
+            android:id="@+id/inbox_user_doctors_specialization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:maxWidth="220dp"
+            android:text=""
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/inbox_user_doctors_img"
+            app:layout_constraintTop_toBottomOf="@id/inbox_user_doctors_name" />
+
+        <ImageView
+            android:id="@+id/inbox_user_doctors_more"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_baseline_more_horiz_24"
+            app:layout_constraintBottom_toBottomOf="@id/inbox_user_doctors_img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/inbox_user_doctors_img"
+            android:contentDescription="@string/app_name"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

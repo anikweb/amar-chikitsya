@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "95914427383",
+    "project_id": "amarchikitsya-a0456",
+    "storage_bucket": "amarchikitsya-a0456.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95914427383:android:3bf5a2ae88245a5b03e4f2",
+        "android_client_info": {
+          "package_name": "com.example.amarchikitsya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95914427383-flg126vk85qcqpflrmvtrc1t5582hm95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amarchikitsya",
+            "certificate_hash": "b6c60655cb04e368d94f5eb2efd2a2f659c61677"
+          }
+        },
+        {
+          "client_id": "95914427383-1pmr8n9m1ptm1itof8r9mk0lk4an038s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcBl-n3osV2D8ZNenLvnxledCtvz7O5F4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95914427383-1pmr8n9m1ptm1itof8r9mk0lk4an038s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp">
+
+    <View
+        android:id="@+id/topDivider"
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:background="@drawable/top_divider_sheet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintCircleRadius="5dp"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topDivider"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/inbox_user_doctors_img_bottom_sheet"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_user_doctor"
+            app:civ_border_color="@color/primary"
+            app:civ_border_width="3dp"
+            app:civ_circle_background_color="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/inbox_user_doctors_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:maxWidth="220dp"
+            android:text="Name of Doctors"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/inbox_user_doctors_img_bottom_sheet"
+            app:layout_constraintTop_toTopOf="@id/inbox_user_doctors_img_bottom_sheet" />
+
+        <TextView
+            android:id="@+id/inbox_user_doctors_specialization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:maxWidth="220dp"
+            android:text="Specialization"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/inbox_user_doctors_img_bottom_sheet"
+            app:layout_constraintTop_toBottomOf="@id/inbox_user_doctors_name" />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#BABABA"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inbox_user_doctors_img_bottom_sheet" />
+
+        <TextView
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/inbox_doctor_user_bottom_sheet_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:paddingStart="10dp"
+            android:paddingVertical="10dp"
+            android:drawableStart="@drawable/ic_baseline_account_circle_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/primary"
+            android:text="View Profile"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/divider1" />
+
+        <TextView
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/inbox_doctor_user_bottom_sheet_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingVertical="10dp"
+            android:drawableStart="@drawable/ic_baseline_send_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/primary"
+            android:text="Send Message"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inbox_doctor_user_bottom_sheet_profile" />
+
+        <TextView
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/inbox_doctor_user_bottom_sheet_delete"
+            android:layout_width="match_parent"
+            android:paddingVertical="10dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:drawableStart="@drawable/ic_baseline_delete_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/primary"
+            android:text="Delete"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inbox_doctor_user_bottom_sheet_msg" />
+
+        <TextView
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/inbox_doctor_user_bottom_sheet_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:paddingStart="10dp"
+            android:drawableStart="@drawable/ic_baseline_block_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/primary"
+            android:text="Block"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inbox_doctor_user_bottom_sheet_delete" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

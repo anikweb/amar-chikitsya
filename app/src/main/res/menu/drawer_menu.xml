@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item-->
+<!--        android:id="@+id/bookmarks"-->
+<!--        android:title="Bookmarks"-->
+<!--        android:iconTint="@color/primary"-->
+<!--        android:icon="@drawable/ic_baseline_bookmark_24"-->
+<!--        />-->
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/ic_baseline_feedback_24"
+        />
+    <item
+        android:id="@+id/contact"
+        android:title="Contact"
+        android:icon="@drawable/ic_baseline_call_24"
+        />
+    <item
+        android:id="@+id/share_drawer"
+        android:title="Share"
+        android:icon="@drawable/ic_baseline_share_24"
+        />
+<!--    <item-->
+<!--        android:id="@+id/about"-->
+<!--        android:title="About us"-->
+<!--        android:icon="@drawable/ic_baseline_info_24"-->
+<!--        />-->
+
+    <item
+        android:id="@+id/registration"
+        android:title="Registration"
+        android:icon="@drawable/ic_baseline_app_registration_24"
+        />
+    <item
+        android:id="@+id/login"
+        android:title="Login"
+        android:icon="@drawable/ic_baseline_login_24"
+        />
+    <item
+        android:visible="true"
+        android:id="@+id/logout_drawer"
+        android:title="Logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        />
+
+</menu>
