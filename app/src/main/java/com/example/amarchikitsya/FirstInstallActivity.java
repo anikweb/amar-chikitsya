@@ -51,7 +51,6 @@ public class FirstInstallActivity extends AppCompatActivity {
                 finish();
         });
     }
-
     private void initialContent() {
         binding.pageTitle.setText("Amar Chikitsya");
         binding.pageSubtitle.setText("Your Health Assistant.");
