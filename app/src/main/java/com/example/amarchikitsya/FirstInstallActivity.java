@@ -49,7 +49,6 @@ public class FirstInstallActivity extends AppCompatActivity {
                 editor.apply();
                 startActivity(new Intent(FirstInstallActivity.this, LoginActivity.class));
                 finish();
-
         });
     }
 
