@@ -57,7 +57,6 @@ public class FirstInstallActivity extends AppCompatActivity {
         binding.image.setImageResource(R.mipmap.ic_launcher_foreground);
         binding.backBtn.setVisibility(View.GONE);
     }
-
     private void addDataToGreetings() {
         greetings.add(new Greetings("Amar Chikitsya", "Your Health Is Our Priority."));
         greetings.add(new Greetings("Consult with Doctors", "Get list of best doctor nearby you. according to symptoms consult with a specialized doctor via video call."));
@@ -68,7 +67,6 @@ public class FirstInstallActivity extends AppCompatActivity {
         greetings.add(new Greetings("Nursing Care", "Get nursing care at home from a registered trusted nursing home."));
         greetings.add(new Greetings("Your Health Assistant.", "Get daily health services through this app. Let's enter the new world of healthcare."));
     }
-
     private void setContent(int index) {
         binding.pageTitle.setText(greetings.get(index).getTitle());
         binding.pageSubtitle.setText(greetings.get(index).getSubtitle());
