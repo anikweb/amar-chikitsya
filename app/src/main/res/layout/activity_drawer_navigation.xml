@@ -11,9 +11,10 @@
         <include
             android:id="@+id/Dtoolbar"
             layout="@layout/toolbar_home" />
+
         <FrameLayout
             android:id="@+id/drawer_content"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

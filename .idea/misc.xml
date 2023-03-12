@@ -64,6 +64,7 @@
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/next_btn.xml" value="0.204" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/next_btn_normal.xml" value="0.1825" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/next_btn_pressed.xml" value="0.204" />
+        <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/normal_btn.xml" value="0.1165" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/right_chat_bg.xml" value="0.2145" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/section_bg.xml" value="0.191" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/starter_btn.xml" value="0.1825" />
@@ -111,6 +112,7 @@
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/drawer_header.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_book_appointment.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_contact.xml" value="0.2975630611372381" />
+        <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_corona_symptoms_checker.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_feedback.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_home.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_inbox.xml" value="0.2975630611372381" />

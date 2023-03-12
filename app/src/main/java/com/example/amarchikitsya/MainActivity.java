@@ -229,6 +229,11 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("activity", "bookAppointment");
             startActivity(intent);
         });
+        binding.cardCoronaSymptomChecker.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, SecondaryActivity.class);
+            intent.putExtra("activity", "coronaSymptomChecker");
+            startActivity(intent);
+        });
         binding.cardDiagnostics.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, DiagnosticActivity.class));
         });
@@ -256,8 +261,6 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, CurrentWeatherActivity.class);
             }
             startActivity(intent);
-
-
         });
 
         FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();

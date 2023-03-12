@@ -713,7 +713,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/card_corona_virus_checker"
+                    android:id="@+id/card_corona_symptom_checker"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
@@ -743,7 +743,7 @@
                             android:layout_margin="3dp"
                             android:layout_marginTop="4dp"
                             android:gravity="center"
-                            android:text="Corona Virus Checker"
+                            android:text="Corona Symptom Checker"
                             android:textColor="@color/white"
                             app:layout_constraintEnd_toEndOf="@id/img_corona_virus_checker"
                             app:layout_constraintStart_toStartOf="@id/img_corona_virus_checker"

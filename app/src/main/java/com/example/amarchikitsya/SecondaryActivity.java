@@ -12,6 +12,7 @@ import android.view.View;
 import com.example.amarchikitsya.databinding.ActivityDrawerNavigationBinding;
 import com.example.amarchikitsya.fragment.BookAppointmentFragment;
 import com.example.amarchikitsya.fragment.ContactFragment;
+import com.example.amarchikitsya.fragment.CoronaSymptomsCheckerFragment;
 import com.example.amarchikitsya.fragment.FeedbackFragment;
 import com.example.amarchikitsya.utils.InternetConnection;
 
@@ -20,6 +21,7 @@ public class SecondaryActivity extends AppCompatActivity {
     ContactFragment contactFragment = new ContactFragment();
     FeedbackFragment feedbackFragment = new FeedbackFragment();
     BookAppointmentFragment bookAppointmentFragment = new BookAppointmentFragment();
+    CoronaSymptomsCheckerFragment coronaSymptomsCheckerFragment = new CoronaSymptomsCheckerFragment();
     ActivityDrawerNavigationBinding binding;
     Intent intent;
     @SuppressLint("SetTextI18n")
@@ -44,6 +46,9 @@ public class SecondaryActivity extends AppCompatActivity {
             binding.Dtoolbar.pageTitle.setText("Feedback");
         }else if(intent.getStringExtra("activity").equals("bookAppointment")){
             getSupportFragmentManager().beginTransaction().replace(R.id.drawer_content, bookAppointmentFragment).commit();
+            binding.Dtoolbar.pageTitle.setText("Book Appointment");
+        }else if(intent.getStringExtra("activity").equals("coronaSymptomChecker")){
+            getSupportFragmentManager().beginTransaction().replace(R.id.drawer_content, coronaSymptomsCheckerFragment).commit();
             binding.Dtoolbar.pageTitle.setText("Book Appointment");
         }
     }
