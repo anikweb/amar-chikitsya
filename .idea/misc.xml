@@ -13,6 +13,7 @@
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/btn_pressed.xml" value="0.258" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/button_click.xml" value="0.258" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/card_bg.xml" value="0.1705" />
+        <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/corona_virus_start_bg.xml" value="0.216" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/error_input.xml" value="0.184" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/ic_baseline_access_alarm_24.xml" value="0.236" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.226" />
@@ -78,6 +79,7 @@
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/activity_chart_and_calculation.xml" value="0.29379485014774165" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/activity_chat_with_doctor_conversation.xml" value="0.33" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/activity_contact.xml" value="0.2975630611372381" />
+        <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/activity_corona_test.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/activity_current_acivity.xml" value="0.29379485014774165" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/activity_current_weather.xml" value="0.1" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/activity_diagnostic.xml" value="0.2975630611372381" />
@@ -105,6 +107,7 @@
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/activity_user_profile.xml" value="0.33" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/activity_weight_chart.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/ambulance_list.xml" value="0.2975630611372381" />
+        <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/corona_test_toolbar.xml" value="0.2967079948696024" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/diagnostic.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/diagnostic_list.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/doctor_list.xml" value="0.2967079948696024" />
@@ -112,6 +115,7 @@
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/drawer_header.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_book_appointment.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_contact.xml" value="0.2975630611372381" />
+        <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_corona_symptom_test.xml" value="0.2860196665241556" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_corona_symptoms_checker.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_feedback.xml" value="0.2975630611372381" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/layout/fragment_home.xml" value="0.2975630611372381" />

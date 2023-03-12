@@ -2,6 +2,7 @@ package com.example.amarchikitsya;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
@@ -21,17 +22,20 @@ public class SecondaryActivity extends AppCompatActivity {
     ContactFragment contactFragment = new ContactFragment();
     FeedbackFragment feedbackFragment = new FeedbackFragment();
     BookAppointmentFragment bookAppointmentFragment = new BookAppointmentFragment();
-    CoronaSymptomsCheckerFragment coronaSymptomsCheckerFragment = new CoronaSymptomsCheckerFragment();
+    
     ActivityDrawerNavigationBinding binding;
     Intent intent;
+    
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        binding = ActivityDrawerNavigationBinding.inflate(getLayoutInflater());
+        
         super.onCreate(savedInstanceState);
+        binding = ActivityDrawerNavigationBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         
         binding.Dtoolbar.backBtn.setVisibility(View.VISIBLE);
+        
         binding.Dtoolbar.backBtn.setOnClickListener(v -> {
             super.onBackPressed();
         });
@@ -46,9 +50,6 @@ public class SecondaryActivity extends AppCompatActivity {
             binding.Dtoolbar.pageTitle.setText("Feedback");
         }else if(intent.getStringExtra("activity").equals("bookAppointment")){
             getSupportFragmentManager().beginTransaction().replace(R.id.drawer_content, bookAppointmentFragment).commit();
-            binding.Dtoolbar.pageTitle.setText("Book Appointment");
-        }else if(intent.getStringExtra("activity").equals("coronaSymptomChecker")){
-            getSupportFragmentManager().beginTransaction().replace(R.id.drawer_content, coronaSymptomsCheckerFragment).commit();
             binding.Dtoolbar.pageTitle.setText("Book Appointment");
         }
     }

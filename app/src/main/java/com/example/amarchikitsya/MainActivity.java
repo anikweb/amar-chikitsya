@@ -230,7 +230,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
         binding.cardCoronaSymptomChecker.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, SecondaryActivity.class);
+            Intent intent = new Intent(MainActivity.this, CoronaTestActivity.class);
             intent.putExtra("activity", "coronaSymptomChecker");
             startActivity(intent);
         });
