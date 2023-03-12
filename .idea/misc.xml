@@ -67,6 +67,7 @@
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/next_btn_pressed.xml" value="0.204" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/normal_btn.xml" value="0.1165" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/right_chat_bg.xml" value="0.2145" />
+        <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/secondary_bg.xml" value="0.1355" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/section_bg.xml" value="0.191" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/starter_btn.xml" value="0.1825" />
         <entry key="..\:/Android/AmarChikitsya/app/src/main/res/drawable/starter_btn_normal.xml" value="0.1825" />
@@ -153,7 +154,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.2975630611372381" />
+        <option name="scale" value="0.2860196665241556" />
       </ProjectState>
     </option>
   </component>

@@ -729,8 +729,8 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:id="@+id/img_corona_virus_checker"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
                             android:layout_marginTop="8dp"
                             android:src="@drawable/ic_baseline_coronavirus_24"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -743,7 +743,7 @@
                             android:layout_margin="3dp"
                             android:layout_marginTop="4dp"
                             android:gravity="center"
-                            android:text="Corona Symptom Checker"
+                            android:text="Covid-19 Test"
                             android:textColor="@color/white"
                             app:layout_constraintEnd_toEndOf="@id/img_corona_virus_checker"
                             app:layout_constraintStart_toStartOf="@id/img_corona_virus_checker"

@@ -8,9 +8,11 @@ import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import com.example.amarchikitsya.databinding.ActivityCoronaTestBinding;
+import com.example.amarchikitsya.fragment.CoronaSymptomTestFragment;
 import com.example.amarchikitsya.fragment.CoronaSymptomsCheckerFragment;
 import com.example.amarchikitsya.utils.InternetConnection;
 
@@ -18,9 +20,10 @@ public class CoronaTestActivity extends AppCompatActivity {
 	
 	ActivityCoronaTestBinding binding;
 	CoronaSymptomsCheckerFragment coronaSymptomsCheckerFragment = new CoronaSymptomsCheckerFragment();
+	CoronaSymptomTestFragment coronaSymptomTestFragment = new CoronaSymptomTestFragment();
 	Intent intent;
 	
-	@SuppressLint("SetTextI18n")
+	@SuppressLint({"SetTextI18n", "ResourceAsColor"})
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -28,12 +31,17 @@ public class CoronaTestActivity extends AppCompatActivity {
 		setContentView(binding.getRoot());
 		checkInternet();
 		intent = getIntent();
-		
+		binding.coronaToolbar.coronaTestExitBtn.setVisibility(View.GONE);
 		binding.coronaToolbar.backBtn.setOnClickListener(view -> {
 			super.onBackPressed();
 		});
 		binding.coronaToolbar.coronaQueNumber.setText("Test Covid-19 Risk");
 		getSupportFragmentManager().beginTransaction().replace(R.id.corona_content, coronaSymptomsCheckerFragment).commit();
+		
+		if(intent.getStringExtra("activity").equals("coronaTest")){
+			getSupportFragmentManager().beginTransaction().replace(R.id.corona_content, coronaSymptomTestFragment).commit();
+			
+		}
 		
 	}
 	private void checkInternet() {

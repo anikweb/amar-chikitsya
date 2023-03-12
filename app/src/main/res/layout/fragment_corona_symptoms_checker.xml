@@ -18,10 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/startBtnLayout"
         app:layout_constraintTop_toTopOf="parent"
-
         />
-
-
     <LinearLayout
         android:id="@+id/startBtnLayout"
         android:layout_width="0dp"
@@ -59,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/normal_btn"
             android:clickable="true"
             android:foreground="?attr/selectableItemBackground"
