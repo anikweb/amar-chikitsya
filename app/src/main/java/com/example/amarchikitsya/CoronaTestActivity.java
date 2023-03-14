@@ -9,11 +9,13 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.amarchikitsya.databinding.ActivityCoronaTestBinding;
 import com.example.amarchikitsya.fragment.CoronaSymptomTestFragment;
 import com.example.amarchikitsya.fragment.CoronaSymptomsCheckerFragment;
+import com.example.amarchikitsya.fragment.DiseaseTestReportFragment;
 import com.example.amarchikitsya.utils.InternetConnection;
 
 public class CoronaTestActivity extends AppCompatActivity {
@@ -21,6 +23,7 @@ public class CoronaTestActivity extends AppCompatActivity {
 	ActivityCoronaTestBinding binding;
 	CoronaSymptomsCheckerFragment coronaSymptomsCheckerFragment = new CoronaSymptomsCheckerFragment();
 	CoronaSymptomTestFragment coronaSymptomTestFragment = new CoronaSymptomTestFragment();
+	DiseaseTestReportFragment diseaseTestReportFragment = new DiseaseTestReportFragment();
 	Intent intent;
 	
 	@SuppressLint({"SetTextI18n", "ResourceAsColor"})
@@ -42,6 +45,7 @@ public class CoronaTestActivity extends AppCompatActivity {
 			getSupportFragmentManager().beginTransaction().replace(R.id.corona_content, coronaSymptomTestFragment).commit();
 			
 		}
+		
 		
 	}
 	private void checkInternet() {
